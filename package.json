@@ -4,5 +4,11 @@
   "description": "The new shift101 for the year 2023",
   "author": "Joenn Aquilino <zzjoennzz@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "repository": {
+    "url": "https://github.com/zZJoennZz/shift101-23"
+  },
+  "prettier": {
+    "tabWidth": 4
+  }
 }

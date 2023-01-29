@@ -131,7 +131,6 @@ table {
 
 * {
     font-family: "Heebo", sans-serif !important;
-    transition: all ease-in-out 0.5s;
 }
 
 a {
@@ -255,7 +254,7 @@ section {
     border-image-slice: 1;
     border-width: 1px;
     border-image-source: linear-gradient(to left, #7d2821, #1cb2bc);
-    transition: all ease-in-out 200ms;
+    transition: color ease-in-out 200ms, box-shadow ease-in-out 200ms;
 }
 
 .header-btn:hover {
@@ -265,6 +264,18 @@ section {
     -moz-box-shadow: -1px 4px 24px -12px rgb(154, 182, 214);
 }
 
+.what-we-do {
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.what-we-do h2 {
+    font-size: 2rem;
+    font-family: "Exo", sans-serif !important;
+    font-weight: 600;
+}
+
 .divisions {
     height: 100vh;
     background: #f5fcfc;
@@ -272,6 +283,7 @@ section {
 
 .division__inner {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 100%;
 }
